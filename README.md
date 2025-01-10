@@ -33,4 +33,9 @@ To use this script, you need Python 3.6 or higher and the following dependencies
 To use the scraper, run:
 
 ```bash
-python scraper/scraper.py --doi "10.1038/s41586-019-0913-7"
+python script_name.py \
+    --file path/to/input_file.csv \
+    --id_type DOI \
+    --chromedriver path/to/chromedriver \
+    --downloads_dir ~/Downloads
+```
